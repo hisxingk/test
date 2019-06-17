@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="shortcut icon" type="image/x-icon" href="img\favicon.png" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="css/help.css"/>
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/help.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header-fixed">
+				<div class="header-top-container">
+					<div class="header-top">
+						<ul>
+							<li class="login-box" id="loginBoxDiv">
+								<a href="land-register.html">
+									登录
+									<i class="icon-new icon-login"></i>
+								</a>
+							</li>
+							<li class="service">
+								<a class="WDNMD">
+									在线客服
+									<i class="icon icon-service icon-new "></i>
+								</a>
+							</li>
+							<li class="help">
+								<a href="#">
+									帮助中心
+									<i class="icon-new icon-help-center"></i>
+								</a>
+							</li>
+							<li class="logistics">
+								<a class="WDNMD">
+									订单追踪
+									<i class="icon-new icon-order-tracking"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<header class="header">
+					<div class="header-container">
+						<nav class="nav-bar">
+							<div class="header-left">
+								<h1 class="navbar-header">
+									<a href="index.html">
+										<img src="img/logo-new.png"/>
+									</a>
+								</h1>
+								<div class="navbar-menu">
+									<div class="scroller-wrap">
+										<div class="menu-box">
+											<ul class="nav-pills1">
+												<li class="Extention">
+													<a class="WDNMD">男子</a>
+												</li>
+												<li class="Extention">
+													<a class="WDNMD">女子</a>
+												</li>
+												<li class="Extention">
+													<a class="WDNMD">儿童</a>
+												</li>
+											</ul>
+											<li class="nav-menu-delimiter">
+												<span></span>
+											</li>
+											<ul class="nav-pills2">
+												<li class="Extention">
+													<a class="WDNMD">运动</a>
+												</li>
+												<li class="Extention">
+													<a class="WDNMD">品牌</a>
+												</li>
+												<li class="Extention">
+													<a class="WDNMD">精选推荐</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="header-right">
+								<li class="header-search" id="myBtn">
+									<div class="form-search">
+										<form id="keysearch" action="#" method="GET">
+											<input type="text" value autocomplete="off" id="keyword" placeholder="分享三条纹"/>
+											<a  class="search-clear1">
+												<i class="icon-search">
+													<i></i>
+												</i>
+											</a>
+											<a class="search-clear2" style="display: none;">
+												<i class="icon-search-clear"></i>
+											</a>
+										</form>
+									</div>
+									<div class="search-box" style="display: none;">
+										<div class="search-before-content">
+											<div class="search-word">
+												<p class="title">搜索推荐</p>
+												<ul>
+												</ul>
+											</div>
+											<div class="search-word">
+												<a class="search-delete">
+													<i class="icon-search-delete"></i>
+												</a>
+												<p class="title">搜索记录</p>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="header-cart">
+									<a class="WDNMD" value="0" >
+										<i class="icon-cart" style="background-image: url(img/commodity.png);width: 20px;height: 20px;margin-top: 6px;margin-left: 14px;"></i>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+			</div>
+			<div class="drop-down-menu">
+				<div class="drop-down-menu-header">
+					<ul>
+						<li><a class="WDNMD">精选推荐</a></li>
+						<li><a class="WDNMD">鞋类</a></li>
+						<li><a class="WDNMD">服饰类</a></li>
+						<li><a class="WDNMD">附配件类</a></li>
+					</ul>
+				</div>
+				<div class="drop-down-menu-body-left">
+					<ul>
+					</ul>
+					<ul>
+						<li></li>
+					</ul>
+					<ul>
+						<li></li>
+					</ul>
+					<ul>
+						<li></li>
+					</ul>
+				</div>
+				<div class="drop-down-menu-body-right">
+					<ul>
+						<li class="drop-down-menu-body-right-title"><a class="WDNMD">个性印制产品</a></li>
+						<li>
+							<a class="drop-down-menu-body-right-img">
+								<img class="WDNMD" src="img/15211227486009014.png"/>
+							</a>
+						</li>
+						<li class="drop-down-menu-body-right-content"><a class="WDNMD">足球个性印制产品</a></li>
+						<li class="drop-down-menu-body-right-content"><a class="WDNMD">Originals个性印制产品</a></li>
+						<li class="drop-down-menu-body-right-content"><a class="WDNMD">adidasneo个性印制产品</a></li>
+						<li class="drop-down-menu-body-right-content"><a class="WDNMD">个性化印制球衣</a></li>
+					</ul>
+				</div>
+				<div class="drop-down-menu-footer">
+					<ul>
+						<li><a class="WDNMD">全部男子产品</a></li>
+						<li><a class="WDNMD">全部男子鞋</a></li>
+						<li><a class="WDNMD">全部男子服饰</a></li>
+						<li><a class="WDNMD">全部男子配件</a></li>
+						<li><a class="WDNMD">全部男子个性印制产品</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="wrapper" class="helpUs">
+				<section class="container" style="padding-top: 80px;">
+					<article class="article faq-article article-faq-width">
+						<div class="search-page-content">
+							<div class="ask-help-search-container">
+								<div class="ask-help-search">
+									<div class="help-container">
+										<img class="WDNMD" src="img/seach_bg.png"/>
+										<h2 class="title-48">我们能为您<span>提供什么帮助 ?</span>
+										</h2>
+									</div>
+									<div class="help-search-container">
+										<div class="form-group">
+											<div class="dropdown">
+												<div class="btn form-input">
+													<input type="text" id="search-input" placeholder="搜索帮助页面关键词..." />
+													<a class="btn btn-blue gl-cta gl-cta--center color-bright-blue" id="searchIcon">搜索<span class="gl-icon icon-arrow-right-long gl-cta__icon icon--size-l">
+														<img src="img/jt-b.png"/>
+														</span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="help-container help-categories-content">
+								<div class="help-mostasked">
+									<h2>常见问题列表</h2>
+									<ul class="contentasset float-clearfix cms-html-edit">
+										<li class="questions1">
+											<ul>
+												<li class="search-content">
+													<a onclick class="WDNMD" target>如何注册阿迪达斯会员账户？</a>
+												</li>
+												<li class="search-content">
+													<a onclick class="WDNMD" target>如何找到我要找的商品？</a>
+												</li>
+												<li class="search-content">
+													<a onclick class="WDNMD" target>我如何选择合适的尺寸？</a>
+												</li>
+												<li class="search-content">
+													<a onclick class="WDNMD" target>使用什么快递进行配送？</a>
+												</li>
+												<li class="search-content">
+													<a onclick class="WDNMD" target>我可以使用何种支付方式进行付款？</a>
+												</li>
+											</ul>
+										</li>
+										<li class="questions2 none-sm">
+											<ul>
+												<li class="search-content">
+													<a onclick class="WDNMD" target>快递费用是多少以及购买商品何时可以发货？</a>
+												</li>
+												<li class="search-content">
+													<a onclick class="WDNMD" target>如何追踪我的订单状态？</a>
+												</li>
+												<li class="search-content">
+													<a onclick class="WDNMD" target>我可以七天无理由退换货吗？</a>
+												</li>
+												<li class="search-content">
+													<a onclick class="WDNMD" target>商品退换货流程是怎样的？</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+								<div class="help-categories-nav cms-html-edit">
+									<h2 class>帮助中心</h2>
+									<div class="help-nav float-clearfix">
+										<ul class="help-nav-content">
+											<li class="help-nav-items">
+												<label>
+													<span class="iconleft-box">
+														<i class="icon icon-company"></i>
+													</span>
+													<a onclick target>关于本店</a>
+													<span class="iconright-box">
+														<i class="icon icon-arrow"></i>
+													</span>
+												</label>
+												<ul class="help-tab help-tab-show">
+													<li class="search-content">
+														<a onclick class="WDNMD" target>你们店铺的商品是官方正品吗？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>销售渠道的差别？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>你们提供商品修改服务吗？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>如何进入阿迪达斯官方网上商城？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>如果在这里找不到我的问题怎么办？</a>
+													</li>
+												</ul>
+											</li>
+											<li class="help-nav-items" id="order">
+												<label>
+													<span class="iconleft-box">
+														<i class="icon icon-company"></i>
+													</span>
+													<a onclick target>关于订单</a>
+													<span class="iconright-box">
+														<i class="icon icon-arrow"></i>
+													</span>
+												</label>
+												<ul class="help-tab help-tab-show">
+													<li class="search-content">
+														<a onclick class="WDNMD" target>为什么我的订单被取消？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>我是否可以取消我的订单？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>取消已支付的订单多久后可以收到退款？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>取消已支付的订单后，我的优惠券是否会返还？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>我是否可以通过电话服务进行下单？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>如果在这里找不到我的问题怎么办？</a>
+													</li>
+												</ul>
+											</li>
+											<li class="help-nav-items">
+												<label>
+													<span class="iconleft-box">
+														<i class="icon icon-company"></i>
+													</span>
+													<a onclick target>关于账户</a>
+													<span class="iconright-box">
+														<i class="icon icon-arrow"></i>
+													</span>
+												</label>
+												<ul class="help-tab help-tab-show">
+													<li class="search-content">
+														<a onclick class="WDNMD" target>我如何创建一个账户？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>我如何管理我的账户？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>如果在这里找不到我的问题怎么办？</a>
+													</li>
+												</ul>
+											</li>
+											<li class="help-nav-items" id="payment">
+												<label>
+													<span class="iconleft-box">
+														<i class="icon icon-company"></i>
+													</span>
+													<a onclick target>关于支付</a>
+													<span class="iconright-box">
+														<i class="icon icon-arrow"></i>
+													</span>
+												</label>
+												<ul class="help-tab help-tab-show">
+													<li class="search-content">
+														<a onclick class="WDNMD" target>我可以使用什么支付方式进行付款？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>如何进行付款？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>如果在这里找不到我的问题怎么办？</a>
+													</li>
+												</ul>
+											</li>
+											<li class="help-nav-items" id="delivery">
+												<label>
+													<span class="iconleft-box">
+														<i class="icon icon-company"></i>
+													</span>
+													<a onclick target>物流配送</a>
+													<span class="iconright-box">
+														<i class="icon icon-arrow"></i>
+													</span>
+												</label>
+												<ul class="help-tab help-tab-show">
+													<li class="search-content">
+														<a onclick class="WDNMD" target>使用什么快递进行配送？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>我的快递费用是多少以及购买商品什么时候可以发货？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>如何追踪我的订单状态？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>我能够更改订单配送地址吗？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>如果在这里找不到我的问题怎么办？</a>
+													</li>
+												</ul>
+											</li>
+											<li class="help-nav-items" id="return_refund">
+												<label>
+													<span class="iconleft-box">
+														<i class="icon icon-company"></i>
+													</span>
+													<a onclick target>退换货</a>
+													<span class="iconright-box">
+														<i class="icon icon-arrow"></i>
+													</span>
+												</label>
+												<ul class="help-tab help-tab-show">
+													<li class="search-content">
+														<a onclick class="WDNMD" target>我是否可以七天无理由退换货？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>我的商品出现质量问题怎么进行退货？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>我的商品出现质量问题怎么进行换货？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>我要多久能够收到退货退款？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>我要多久能够收到换货商品？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>如果我进行退货的话，会退还我的送货运费吗？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>如果在这里找不到我的问题怎么办？</a>
+													</li>
+												</ul>
+											</li>
+											<li class="help-nav-items" id="promotion">
+												<label>
+													<span class="iconleft-box">
+														<i class="icon icon-company"></i>
+													</span>
+													<a onclick target>关于个性印制服务</a>
+													<span class="iconright-box">
+														<i class="icon icon-arrow"></i>
+													</span>
+												</label>
+												<ul class="help-tab help-tab-show">
+													<li class="search-content">
+														<a onclick class="WDNMD" target>什么是个性印制服务？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>个性印制服务的费用是多少？</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>使用个性印制服务定制的商品的配送周期多长?</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>使用个性印制服务定制的商品接受何种支付方式?</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>使用个性印制服务定制的商品是否可以申请退换货?</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>使用个性印制服务定制的商品下单后是否能修改或取消订单?</a>
+													</li>
+													<li class="search-content">
+														<a onclick class="WDNMD" target>如果在这里找不到我的问题怎么办？</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="help-myaccount help-container">
+									<div class="help-myaccount-box float-clearfix">
+										<div class="help-myaccount-left">
+											<div class="contentasset">
+												<h2>如何查询我的订单？</h2>
+												<div class="help-myaccount-text">
+													<p>如果您已经是adidas官方商城会员：</p>
+													<p>
+														您可以登录您的账户，并且点击“订单信息”中的“订单历史记录”进行查询，并跟踪您的订单状态。如果您没有创建过adidas官方商城账户：您可以查看您在付款后收到的adidas官方商城发送给您的电子邮件，并且通过电子邮件内的信息到adidas官方商城查看您的订单进度。
+													</p>
+												</div>
+												<div class="help-myaccount-buttons">
+													<a id="WDNMD" class="gl-cta color-bright-blue gl-cta--primary gl-cta--full-width">登录<span class="gl-icon icon-arrow-right-long gl-cta__icon icon--size-l"><img src="img/jt-b.png"/></span>
+													</a>
+													<a id="WGNMD" class="gl-cta color-bright-blue gl-cta--primary gl-cta--full-width">订单查询<span class="gl-icon icon-arrow-right-long gl-cta__icon icon--size-l"><img src="img/jt-b.png"/></span>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="help-myaccount-right">
+											<div class="customer-care-first">
+												<div class="contentasset">
+													<h2>找不到您要问的问题？</h2>
+													<h3>咨询客服</h3>
+												</div>
+												<div class="help-myaccount-support none-sm">
+													<p class="help-myaccount-support-tit">客服服务时间：</p>
+													<p class="help-myaccount-support-tiem">周一至周日：9:00-22:00</p>
+												</div>
+												<div class="help-myaccount-text">
+													<div>
+														<span class="help-myaccount-icon">
+															<a style="display: block; font-size: 0;">
+																<i class="icon icon-tel"></i>
+															</a>
+														</span>
+														<span class="help-myaccount-cont">
+															<a>客服电话： 400-999-5999</a>
+														</span>
+													</div>
+													<div>
+														<span class="help-myaccount-icon">
+															<a style="display: block; font-size: 0;">
+																<i class="icon icon-tel"></i>
+															</a>
+														</span>
+														<span class="help-myaccount-cont">
+															<a>在线客服live</a>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</section>
+			</div>
+			<div class="footer">
+					<div class="footer-top">
+						<ul class="footer-top-ul">
+							<li class="footer-top-ul-li">联系我们</li>
+							<li class="footer-top-ul-li">
+								<p class="footer-top-ul-li-p">
+									<img src="img/chat-b.png" />
+									<a class="WDNMD">联系客服</a>
+									<p class="footer-top-ul-li-p-p">[仅支持中文]</p>
+								</p>
+							</li>
+							<li class="footer-top-ul-li">
+								<p class="footer-top-ul-li-p">
+									<img src="img/Telephone.png" />
+									<a class="WDNMD">400-999-5999</a>
+									<p class="footer-top-ul-li-p-p">[仅支持中文]</p>
+								</p>
+							</li>
+							<li class="footer-top-ul-li">
+							<p class="footer-top-ul-li-p">
+								<img src="img/mail.png" />
+								<a class="WDNMD">service@adidas.com</a>
+								<p class="footer-top-ul-li-p-p">[建议及投诉受理邮箱]</p>
+							</p>
+						</li>
+						<li class="footer-top-ul-li">
+							<p class="footer-top-ul-li-p">
+								<img src="img/Clock.png" />
+								<a class="WDNMD">9:00-22:00</a>
+							</p>
+						</li>
+						<li class="footer-top-ul-li-r">
+							<a class="WDNMD" class="footer-top-ul-li-r-p"><img src="img/Order-b.png" />订单追踪</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-middle">
+					<div class="footer-middle-div">
+						<ul class="footer-middle-top-left-ul">
+							<li class="footer-middle-top-left-ul-li-title">产品</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">鞋类</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">服装</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">配件</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">最新上市</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">新品发售日历</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">限量发售</a>
+							</li>
+						</ul>
+						<ul class="footer-middle-top-left-ul">
+							<li class="footer-middle-top-left-ul-li-title">运动</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">跑步</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">训练</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">足球</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">篮球</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">户外</a>
+							</li>
+						</ul>
+						<ul class="footer-middle-top-left-ul">
+							<li class="footer-middle-top-left-ul-li-title">帮助中心</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">关于员工</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">尺码表</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">adiCLUB会员</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">门店查询</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">关于我们</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">企业社会责任</a>
+							</li>
+						</ul>
+						<ul class="footer-middle-top-left-ul">
+							<li class="footer-middle-top-left-ul-li-title">网站政策</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">使用条款</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">隐私声明</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">物流配送规则</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">退货规则</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">adiCLUB会员规则</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">下单指南</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">印制服务条款</a>
+							</li>
+						</ul>
+						<ul class="footer-middle-top-right-ul">
+							<h2>职业发展</h2>
+							<li>
+								<a class="WDNMD"><img src="img/Peopleh.png" /></a>
+							</li>
+						</ul>
+						<ul class="footer-middle-top-right-ul">
+							<h2>关注我们</h2>
+							<li>
+								<a class="WDNMD"><img src="img/xlh.png" /></a>
+							</li>
+							<li class="footer-middle-top-right-ul-li">
+								<a class="WDNMD"><img src="img/wxh.png" /></a>
+								<div class="footer-middle-top-right-ul-li-kz">
+									<div class="footer-middle-top-right-ul-li-kz-jt"></div>
+									<div class="footer-middle-top-right-ul-li-kz-img"></div>
+									<p class="footer-middle-top-right-ul-li-kz-txt"></p>
+								</div>
+							</li>
+						</ul>
+						<ul class="footer-middle-bottom-top-ul">
+							<li class="footer-middle-bottom-top-ul-li">我们接受下列付款方式：</li>
+							<li class="footer-middle-bottom-top-ul-li"><img src="img/zfb.png" /></li>
+							<li class="footer-middle-bottom-top-ul-li"><img src="img/wxzf.png" /></li>
+							<li class="footer-middle-bottom-top-ul-li"><img src="img/yl.png" /></li>
+							<li class="footer-middle-bottom-top-ul-li"><img src="img/hdfk.png" /></li>
+						</ul>
+						<ul class="footer-middle-bottom-bottom-ul">
+							<li class="footer-middle-bottom-bottom-ul-li">企业团购热线及邮箱：</li>
+							<li class="footer-middle-bottom-bottom-ul-li-l">团购热线：021-2525 6881</li>
+							<li class="footer-middle-bottom-bottom-ul-li">团购邮箱：adidas.b2b@adidas.com</li>
+							<li class="footer-middle-bottom-bottom-ul-li">（仅限采购金额10万以上）</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="footer-bottom-div">
+						<ul class="footer-bottom-ul-l">
+							<li class="footer-bottom-ul-l-li">
+								<a class="WDNMD"><img src="img/gq.png" />中国</a>
+							</li>
+							<li class="footer-bottom-ul-l-li">
+								<a class="WDNMD">隐私声明</a>
+							</li>
+							<li class="footer-bottom-ul-l-li">|</li>
+							<li class="footer-bottom-ul-l-li">
+								<a class="WDNMD">使用条款</a>
+							</li>
+							<li class="footer-bottom-ul-l-li">|</li>
+							<li class="footer-bottom-ul-l-li">
+								<a class="WDNMD">网络地图</a>
+							</li>
+						</ul>
+						<ul class="footer-bottom-ul-r">
+							<li class="footer-bottom-ul-r-li">
+								<a class="WDNMD">苏ICP备14048805号-1</a>
+							</li>
+							<li class="footer-bottom-ul-r-li">
+								<a class="WDNMD"><img src="img/dh.png" />© 2019 adidas 江苏工商</a>
+							</li>
+							<li class="footer-bottom-ul-r-li">
+								<a class="WDNMD"><img src="img/jh.png" />苏公网安备 32059002001401号</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

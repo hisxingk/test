@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>阿迪达斯官方商城</title>
+		<!--头部-->
+		<!--<link rel="stylesheet" type="text/css" href="css/homepage.css" />-->
+		<link rel="shortcut icon" type="image/x-icon" href="img\favicon.png" />
+		<script src="js/jquery-2.1.0.js" type="text/javascript"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript"></script>
+		<script src="js/homepage.js" type="text/javascript" charset="utf-8"></script>
+		<!--中间需要更改的-->
+
+		<link rel="stylesheet" type="text/css" href="css/yeezy.css" />
+		<script src="js/yeezy.js" type="text/javascript" charset="utf-8"></script>
+
+		<!--尾部-->
+		<!--<link rel="stylesheet" type="text/css" href="css/footer.css" />-->
+		<script src="js/footer.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div class="header-fixed">
+				<div class="header-top-container">
+					<div class="header-top">
+						<ul>
+							<li class="login-box" id="loginBoxDiv">
+								<a href="land-register.html">
+									登录
+									<i class="icon-new icon-login"></i>
+								</a>
+							</li>
+							<li class="service">
+								<a class="WDNMD">
+									在线客服
+									<i class="icon icon-service icon-new "></i>
+								</a>
+							</li>
+							<li class="help">
+								<a href="help.html">
+									帮助中心
+									<i class="icon-new icon-help-center"></i>
+								</a>
+							</li>
+							<li class="logistics">
+								<a class="WDNMD">
+									订单追踪
+									<i class="icon-new icon-order-tracking"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<header class="header">
+					<div class="header-container">
+						<nav class="nav-bar">
+							<div class="header-left">
+								<h1 class="navbar-header">
+									<a href="index.html">
+										<img src="img/logo-new.png"/>
+									</a>
+								</h1>
+								<div class="navbar-menu">
+									<div class="scroller-wrap">
+										<div class="menu-box">
+											<ul class="nav-pills1">
+												<li class="Extention">
+													<a class="WDNMD">男子</a>
+												</li>
+												<li class="Extention">
+													<a class="WDNMD">女子</a>
+												</li>
+												<li class="Extention">
+													<a class="WDNMD">儿童</a>
+												</li>
+											</ul>
+											<li class="nav-menu-delimiter">
+												<span></span>
+											</li>
+											<ul class="nav-pills2">
+												<li class="Extention">
+													<a class="WDNMD">运动</a>
+												</li>
+												<li class="Extention">
+													<a class="WDNMD">品牌</a>
+												</li>
+												<li class="Extention">
+													<a class="WDNMD">精选推荐</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="header-right">
+								<li class="header-search" id="myBtn">
+									<div class="form-search">
+										<form id="keysearch" action="#" method="GET">
+											<input type="text" value autocomplete="off" id="keyword" placeholder="分享三条纹" />
+											<a class="search-clear1">
+												<i class="icon-search">
+													<i></i>
+												</i>
+											</a>
+											<a class="search-clear2" style="display: none;">
+												<i class="icon-search-clear"></i>
+											</a>
+										</form>
+									</div>
+									<div class="search-box" style="display: none;">
+										<div class="search-before-content">
+											<div class="search-word">
+												<p class="title">搜索推荐</p>
+												<ul>
+												</ul>
+											</div>
+											<div class="search-word">
+												<a class="search-delete">
+													<i class="icon-search-delete"></i>
+												</a>
+												<p class="title">搜索记录</p>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="header-cart">
+									<a class="WDNMD" value="0">
+										<i class="icon-cart" style="background-image: url(img/commodity.png);width: 20px;height: 20px;margin-top: 6px;margin-left: 14px;"></i>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+			</div>
+			<div class="drop-down-menu">
+				<div class="drop-down-menu-header">
+					<ul>
+						<li>
+							<a class="WDNMD">精选推荐</a>
+						</li>
+						<li>
+							<a class="WDNMD">鞋类</a>
+						</li>
+						<li>
+							<a class="WDNMD">服饰类</a>
+						</li>
+						<li>
+							<a class="WDNMD">附配件类</a>
+						</li>
+					</ul>
+				</div>
+				<div class="drop-down-menu-body-left">
+					<ul>
+					</ul>
+					<ul>
+						<li></li>
+					</ul>
+					<ul>
+						<li></li>
+					</ul>
+					<ul>
+						<li></li>
+					</ul>
+				</div>
+				<div class="drop-down-menu-body-right">
+					<ul>
+						<li class="drop-down-menu-body-right-title">
+							<a class="WDNMD">个性印制产品</a>
+						</li>
+						<li>
+							<a class="drop-down-menu-body-right-img">
+								<img class="WDNMD" src="img/15211227486009014.png"/>
+							</a>
+						</li>
+						<li class="drop-down-menu-body-right-content">
+							<a class="WDNMD">足球个性印制产品</a>
+						</li>
+						<li class="drop-down-menu-body-right-content">
+							<a class="WDNMD">Originals个性印制产品</a>
+						</li>
+						<li class="drop-down-menu-body-right-content">
+							<a class="WDNMD">adidasneo个性印制产品</a>
+						</li>
+						<li class="drop-down-menu-body-right-content">
+							<a class="WDNMD">个性化印制球衣</a>
+						</li>
+					</ul>
+				</div>
+				<div class="drop-down-menu-footer">
+					<ul>
+						<li><a class="WDNMD">全部男子产品</a></li>
+						<li><a class="WDNMD">全部男子鞋</a></li>
+						<li><a class="WDNMD">全部男子服饰</a></li>
+						<li><a class="WDNMD">全部男子配件</a></li>
+						<li><a class="WDNMD">全部男子个性印制产品</a></li>
+					</ul>
+				</div>
+			</div>
+			<!----------------------------------------------------------------------------------------------->
+
+			<div class="main">
+				<ul class="main-top-ul">
+
+					<li class="main-top-ul-li">
+						<div class="main-top-ul-li-div">
+							<a class="WDNMD">
+								<img src="img/FU6684-pc.jpg" / class="main-top-ul-li-img">
+							</a>
+							<a class="WDNMD">
+								<p class="main-top-ul-li-p">YEEZY BOOST 700 V2</p>
+								<p class="main-top-ul-li-p">VANTA</p>
+								<p class="main-top-ul-li-p">¥ 2599</p>
+								<div class="titme">
+									<span>6</span> 月
+									<span>6</span> 日
+									<span>10</span> 点
+								</div>
+							</a>
+							<div class="main-top-ul-li-div-div">
+								<a class="WDNMD">已售罄</a>
+							</div>
+						</div>
+					</li>
+					<li class="main-top-ul-li">
+						<div class="main-top-ul-li-div">
+							<a class="WDNMD">
+								<img src="img/FU6695-pc.jpg" / class="main-top-ul-li-img">
+							</a>
+							<a class="WDNMD">
+								<p class="main-top-ul-li-p">YEEZY BOOST 700 V2</p>
+								<p class="main-top-ul-li-p">VANTA KIDS</p>
+								<p class="main-top-ul-li-p">¥1399</p>
+								<div class="titme">
+									<span>6</span> 月
+									<span>6</span> 日
+									<span>10</span> 点
+								</div>
+							</a>
+							<div class="main-top-ul-li-div-div">
+								<a class="WDNMD">已售罄</a>
+							</div>
+						</div>
+					</li>
+					<li class="main-top-ul-li">
+						<div class="main-top-ul-li-div">
+							<a class="WDNMD">
+								<img src="img/FU6686-pc.jpg" / class="main-top-ul-li-img">
+							</a>
+							<a class="WDNMD">
+								<p class="main-top-ul-li-p">YEEZY BOOST 700 V2</p>
+								<p class="main-top-ul-li-p">VANTA INFANTS</p>
+								<p class="main-top-ul-li-p">¥1299</p>
+								<div class="titme">
+									<span>6</span> 月
+									<span>6</span> 日
+									<span>10</span> 点
+								</div>
+							</a>
+							<div class="main-top-ul-li-div-div">
+								<a class="WDNMD">已售罄</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="main-top-ul">
+					<li class="main-top-ul-li">
+						<div class="main-top-ul-li-div">
+							<a class="WDNMD">
+								<img src="img/FU9006-pc.jpg" / class="main-top-ul-li-img">
+							</a>
+							<a class="WDNMD">
+								<p class="main-top-ul-li-p">YEEZY BOOST 350 V2</p>
+								<p class="main-top-ul-li-p">BLACK</p>
+								<p class="main-top-ul-li-p">¥1899</p>
+								<div class="titme">
+									<span>6</span> 月
+									<span>6</span> 日
+									<span>10</span> 点
+								</div>
+							</a>
+							<div class="main-top-ul-li-div-div">
+								<a class="WDNMD">已售罄</a>
+							</div>
+						</div>
+					</li>
+					<li class="main-top-ul-li">
+						<div class="main-top-ul-li-div">
+							<a class="WDNMD">
+								<img src="img/FU9013-pc.jpg" / class="main-top-ul-li-img">
+							</a>
+							<a class="WDNMD">
+								<p class="main-top-ul-li-p">YEEZY BOOST 350 V2</p>
+								<p class="main-top-ul-li-p">BLACK KIDS</p>
+								<p class="main-top-ul-li-p">¥1299</p>
+								<div class="titme">
+									<span>6</span> 月
+									<span>6</span> 日
+									<span>10</span> 点
+								</div>
+							</a>
+							<div class="main-top-ul-li-div-div">
+								<a class="WDNMD">已售罄</a>
+							</div>
+						</div>
+					</li>
+					<li class="main-top-ul-li">
+						<div class="main-top-ul-li-div">
+							<a class="WDNMD">
+								<img src="img/FU9011-pc.jpg" / class="main-top-ul-li-img">
+							</a>
+							<a class="WDNMD">
+								<p class="main-top-ul-li-p">YEEZY BOOST 350 V2</p>
+								<p class="main-top-ul-li-p">BLACK INFANTS</p>
+								<p class="main-top-ul-li-p">¥1199</p>
+								<div class="titme">
+									<span>6</span> 月
+									<span>6</span> 日
+									<span>10</span> 点
+								</div>
+							</a>
+							<div class="main-top-ul-li-div-div">
+								<a class="WDNMD">已售罄</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="main-top-ul">
+					<li class="main-top-ul-li">
+						
+					</li>
+					<li class="main-top-ul-li">
+						<div class="main-top-ul-li-div">
+							<a class="WDNMD">
+								<img src="img/FV5304-pc.jpg" / class="main-top-ul-li-img">
+							</a>
+							<a class="WDNMD">
+								<p class="main-top-ul-li-p">YEEZY BOOST 700</p>
+								<p class="main-top-ul-li-p">UTILITY BLACK</p>
+								<p class="main-top-ul-li-p">¥ 2599</p>
+								<div class="titme">
+									<span>6</span> 月
+									<span>29</span> 日
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="main-top-ul-li">
+						
+					</li>
+				</ul>
+			</div>
+
+			<!------------------------------------------------------------------------------------------------>
+			<div class="footer">
+				<div class="footer-top">
+					<ul class="footer-top-ul">
+						<li class="footer-top-ul-li">联系我们</li>
+						<li class="footer-top-ul-li">
+							<p class="footer-top-ul-li-p">
+								<img src="img/chat-b.png" />
+								<a class="WDNMD">联系客服</a>
+								<p class="footer-top-ul-li-p-p">[仅支持中文]</p>
+							</p>
+						</li>
+						<li class="footer-top-ul-li">
+							<p class="footer-top-ul-li-p">
+								<img src="img/Telephone.png" />
+								<a class="WDNMD">400-999-5999</a>
+								<p class="footer-top-ul-li-p-p">[仅支持中文]</p>
+							</p>
+						</li>
+						<li class="footer-top-ul-li">
+							<p class="footer-top-ul-li-p">
+								<img src="img/mail.png" />
+								<a class="WDNMD">service@adidas.com</a>
+								<p class="footer-top-ul-li-p-p">[建议及投诉受理邮箱]</p>
+							</p>
+						</li>
+						<li class="footer-top-ul-li">
+							<p class="footer-top-ul-li-p">
+								<img src="img/Clock.png" />
+								<a class="WDNMD">9:00-22:00</a>
+							</p>
+						</li>
+						<li class="footer-top-ul-li-r">
+							<a id="WDNMD" class="footer-top-ul-li-r-p"><img src="img/Order-b.png" />订单追踪</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-middle">
+					<div class="footer-middle-div">
+						<ul class="footer-middle-top-left-ul">
+							<li class="footer-middle-top-left-ul-li-title">产品</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">鞋类</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">服装</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">配件</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">最新上市</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">新品发售日历</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">限量发售</a>
+							</li>
+						</ul>
+						<ul class="footer-middle-top-left-ul">
+							<li class="footer-middle-top-left-ul-li-title">运动</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">跑步</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">训练</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">足球</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">篮球</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">户外</a>
+							</li>
+						</ul>
+						<ul class="footer-middle-top-left-ul">
+							<li class="footer-middle-top-left-ul-li-title">帮助中心</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">关于员工</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">尺码表</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">adiCLUB会员</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">门店查询</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">关于我们</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">企业社会责任</a>
+							</li>
+						</ul>
+						<ul class="footer-middle-top-left-ul">
+							<li class="footer-middle-top-left-ul-li-title">网站政策</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">使用条款</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">隐私声明</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">物流配送规则</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">退货规则</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">adiCLUB会员规则</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">下单指南</a>
+							</li>
+							<li class="footer-middle-top-left-ul-li">
+								<a class="WDNMD">印制服务条款</a>
+							</li>
+						</ul>
+						<ul class="footer-middle-top-right-ul">
+							<h2>职业发展</h2>
+							<li class="footer-middle-top-right-ul-li-2">
+								<a class="WDNMD"><img src="img/Peopleh.png" /></a>
+								<img src="img/smjr.png" / class="footer-middle-top-right-ul-li-kz2">
+							</li>
+						</ul>
+						<ul class="footer-middle-top-right-ul">
+							<h2>关注我们</h2>
+							<li>
+								<a class="WDNMD"><img src="img/xlh.png" /></a>
+							</li>
+							<li class="footer-middle-top-right-ul-li-1">
+								<a class="WDNMD"><img src="img/wxh.png" /></a>
+								<img src="img/smgz.png" / class="footer-middle-top-right-ul-li-kz1">
+							</li>
+						</ul>
+						<ul class="footer-middle-bottom-top-ul">
+							<li class="footer-middle-bottom-top-ul-li">我们接受下列付款方式：</li>
+							<li class="footer-middle-bottom-top-ul-li"><img src="img/zfb.png" /></li>
+							<li class="footer-middle-bottom-top-ul-li"><img src="img/wxzf.png" /></li>
+							<li class="footer-middle-bottom-top-ul-li"><img src="img/yl.png" /></li>
+							<li class="footer-middle-bottom-top-ul-li"><img src="img/hdfk.png" /></li>
+						</ul>
+						<ul class="footer-middle-bottom-bottom-ul">
+							<li class="footer-middle-bottom-bottom-ul-li">企业团购热线及邮箱：</li>
+							<li class="footer-middle-bottom-bottom-ul-li-l">团购热线：021-2525 6881</li>
+							<li class="footer-middle-bottom-bottom-ul-li">团购邮箱：adidas.b2b@adidas.com</li>
+							<li class="footer-middle-bottom-bottom-ul-li">（仅限采购金额10万以上）</li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="footer-bottom">
+					<div class="footer-bottom-div">
+						<ul class="footer-bottom-ul-l">
+							<li class="footer-bottom-ul-l-li">
+								<a class="WDNMD"><img src="img/gq.png" />中国</a>
+							</li>
+							<li class="footer-bottom-ul-l-li">
+								<a class="WDNMD">隐私声明</a>
+							</li>
+							<li class="footer-bottom-ul-l-li">|</li>
+							<li class="footer-bottom-ul-l-li">
+								<a class="WDNMD">使用条款</a>
+							</li>
+							<li class="footer-bottom-ul-l-li">|</li>
+							<li class="footer-bottom-ul-l-li">
+								<a class="WDNMD">网络地图</a>
+							</li>
+						</ul>
+						<ul class="footer-bottom-ul-r">
+							<li class="footer-bottom-ul-r-li">
+								<a class="WDNMD">苏ICP备14048805号-1</a>
+							</li>
+							<li class="footer-bottom-ul-r-li">
+								<a class="WDNMD"><img src="img/dh.png" />© 2019 adidas 江苏工商</a>
+							</li>
+							<li class="footer-bottom-ul-r-li">
+								<a class="WDNMD"><img src="img/jh.png" />苏公网安备 32059002001401号</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			</section>
+		</div>
+	</body>
+
+</html>
