@@ -291,7 +291,7 @@ $(function(){
 		alert("自己设的还会忘?!")
 	})
 	
-	$(".main-top-ul-li-a").click(window.history.back(-1))
+	
 	
 	$(".main-left-bottom-ul-li-img").click(function(){
 		alert("该功能暂不开放")
