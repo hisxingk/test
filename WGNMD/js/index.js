@@ -2065,9 +2065,9 @@ $(function(){
 		});
 	});
 	$('.WDNMD').click(function () {
-		alert("你点NM呢,WDNMD");
+		alert("暂不开放");
 	});
 	$('.Outsidetheborder').click(function () {
-		alert("你点NM呢,WDNMD");
+		alert("暂不开放");
 	});
 })
