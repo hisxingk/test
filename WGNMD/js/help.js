@@ -341,8 +341,8 @@ $(function(){
 	    "width": "990px"
 	});
 	$('.help-container img:eq(0)').css({
-		"position": "absolute",
-	    "right": "28%",
+		"position": "absolute"
+	    "right": "28%"
 	    "top": "0"
 	});
 	$('.icon-arrow-right-long img:eq(0)').css({
@@ -355,15 +355,15 @@ $(function(){
 		"background-image": "url(img/xx.png)"
 	});
 	$('.WDNMD').click(function () {
-		alert('WDNMD')
+		alert('暂不开放')
 	});
 	$('#searchIcon').click(function () {
-		alert('WDNMD')
+		alert('暂不开放')
 	});
 	$('#WDNMD').click(function () {
-		alert('WDNMD')
+		alert('暂不开放')
 	});
 	$('#WGNMD').click(function () {
-		alert('WDNMD')
+		alert('暂不开放')
 	});
 });

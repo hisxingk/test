@@ -256,9 +256,9 @@ $(function(){
 	})
 	
 	$('.WDNMD').click(function () {
-		alert('WDNMD')
+		alert('暂不开放')
 	})
 	$('#WDNMD').click(function () {
-		alert('WDNMD')
+		alert('暂不开放')
 	})
 })

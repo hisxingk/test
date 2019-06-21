@@ -297,24 +297,24 @@ $(function(){
 	})
 	
 	$('.WDNMD').click(function () {
-		alert('WDNMD')
+		alert('暂不开放')
 	})
 	$('#WDNMD').click(function () {
-		alert('WDNMD')
+		alert('暂不开放')
 	})
 	$('#WGNMD').click(function () {
-		alert('WDNMD')
+		alert('暂不开放')
 	})
 	$('#XPC').click(function () {
-		alert('WDNMD')
+		alert('暂不开放')
 	})
 	$('#DNM').click(function () {
-		alert('WDNMD')
+		alert('暂不开放')
 	})
 	$('#a').click(function () {
-		alert('WDNMD')
+		alert('暂不开放')
 	})
 	$('#b').click(function () {
-		alert('WDNMD')
+		alert('暂不开放')
 	})
 })
